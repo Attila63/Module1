@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E835A30B1CD0D14B003EF2CC /* HalloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = E835A30A1CD0D14B003EF2CC /* HalloWorld.m */; };
 		E8843EAD1CD0B60400B05AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8843EAC1CD0B60400B05AFF /* main.m */; };
 		E8843EB01CD0B60400B05AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8843EAF1CD0B60400B05AFF /* AppDelegate.m */; };
 		E8843EB31CD0B60400B05AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8843EB21CD0B60400B05AFF /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E835A3091CD0D14B003EF2CC /* HalloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalloWorld.h; sourceTree = "<group>"; };
+		E835A30A1CD0D14B003EF2CC /* HalloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalloWorld.m; sourceTree = "<group>"; };
 		E8843EA81CD0B60400B05AFF /* Module1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Module1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8843EAC1CD0B60400B05AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8843EAE1CD0B60400B05AFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E835A3081CD0D14B003EF2CC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E835A3091CD0D14B003EF2CC /* HalloWorld.h */,
+				E835A30A1CD0D14B003EF2CC /* HalloWorld.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
 		E8843E9F1CD0B60400B05AFF = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		E8843EAA1CD0B60400B05AFF /* Module1 */ = {
 			isa = PBXGroup;
 			children = (
+				E835A3081CD0D14B003EF2CC /* Classes */,
 				E8843EAE1CD0B60400B05AFF /* AppDelegate.h */,
 				E8843EAF1CD0B60400B05AFF /* AppDelegate.m */,
 				E8843EB11CD0B60400B05AFF /* ViewController.h */,
@@ -152,6 +165,7 @@
 				E8843EB31CD0B60400B05AFF /* ViewController.m in Sources */,
 				E8843EB01CD0B60400B05AFF /* AppDelegate.m in Sources */,
 				E8843EAD1CD0B60400B05AFF /* main.m in Sources */,
+				E835A30B1CD0D14B003EF2CC /* HalloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +314,7 @@
 				E8843EC11CD0B60400B05AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

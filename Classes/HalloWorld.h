@@ -14,5 +14,6 @@
 - (void) foo;
 - (void) foo2;
 - (void) foo3;
+- (void) foo4;
 
 @end
