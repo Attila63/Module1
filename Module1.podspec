@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Module1'
   s.homepage = 'https://hotel.idealo.de'
   s.author   = { 'Igor Gun' => 'igor.gun@idealo.de' }
-  s.source   = { :git => 'https://github.com/Attila63/Module1.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/Attila63/Module1.git', :tag => s.version.to_s, :submodules => true}
   s.license      = { :type => 'idealo license'}
   s.source_files = "Classes", "Classes/**/*.{h,m}"
 end
