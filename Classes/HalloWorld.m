@@ -30,4 +30,8 @@
     NSLog(@"hall world - foo4");
 }
 
+- (void) halloWorld
+{
+    NSLog(@"hall world");
+}
 @end
